@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+margin-top: 10px;
+}
+.Title-box {
+    display: flex;
+    flex-direction: column;
+    background: color#cad2c5;
+    color: white;
+    place-items: center;
+    justify-content: center;
+    font-size: x-large;
+    padding: 25px;
+    position: relative;
+    background-image: url("./github\ logo.png");
+    background-repeat: no-repeat; 
+    background-color: #2f3d46;    ; 
+    background-position:5px;
+    border-radius: 10px;
+  }
+  .Left-Box{
+    display: inline-flex;
+    background-color: #353535;
+    margin-top: 80px;
+    margin-left: 100px;
+    border-radius: 15px;
+
+  }
+
+  .Search-Box {
+    display:inline-flex;
+    flex-direction: column;
+    background-color: #353535;
+    color: gray;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 190px;
+    padding: 8px;
+    margin-block-start: 40px;
+    justify-content: center;
+  }
+
+  .Card-1 {
+    display: inline-flex;
+    background-color:  #353535;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50%;
+  }
+
+  .Card-2{
+    display: inline-block;
+    background-color: #353535;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 30%;
+  }
+
+  .Card-3 {
+    display: inline-block;
+    background-color:  #353535;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 10%;
+  }
+
+  .Bottom-Box {
+    display: inline-flex;
+    background-color:  #353535;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 10%;
+  }
+  
